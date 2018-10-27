@@ -1,4 +1,4 @@
-# callbag-timer
+# use-callbag
 
 Use callbag as React hook.
 
