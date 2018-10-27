@@ -1,10 +1,12 @@
 {
   "name": "use-callbag",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "👜 Use callbag as React hook.",
   "main": "./dist/use-callbag.js",
   "module": "./dist/use-callbag.esm.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --env=node",
     "prebuild": "rimraf dist",
