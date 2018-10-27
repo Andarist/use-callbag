@@ -1,0 +1,43 @@
+{
+  "name": "use-callbag",
+  "version": "0.0.0",
+  "description": "👜 Use callbag as React hook.",
+  "main": "dist/use-callbag.js",
+  "module": "dist/use-callbag.esm.js",
+  "scripts": {
+    "test": "jest --env=node",
+    "prebuild": "rimraf dist",
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andarist/use-callbag.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Andarist/use-callbag/issues"
+  },
+  "homepage": "https://github.com/Andarist/use-callbag#readme",
+  "peerDependencies": {
+    "react": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "husky": "^1.1.0",
+    "jest": "^23.6.0",
+    "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0",
+    "rimraf": "^2.6.2",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3"
+  },
+  "dependencies": {
+    "callbag-subscribe": "^1.4.1"
+  }
+}
