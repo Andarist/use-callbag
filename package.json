@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/Andarist/use-callbag.git"
   },
-  "author": "",
+  "author": "Mateusz Burzyński <mateuszburzynski@gmail.com> (https://github.com/Andarist)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Andarist/use-callbag/issues"
