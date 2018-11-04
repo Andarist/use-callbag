@@ -10,11 +10,11 @@ import map from 'callbag-map'
 import pipe from 'callbag-pipe'
 import useCallbag from 'use-callbag'
 
-export default function Counter(props) {
-  const count = useCallbag(0, () =>
+export default function Counter({ initialCount }) {
+  const count = useCallbag(initialCount, () =>
     pipe(
       interval(1000),
-      map(i => i + 1),
+      map(i => initialCount + i + 1),
     ),
   )
   return <span>{`Counter: ${count}`}</span>
