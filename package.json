@@ -6,7 +6,8 @@
   "types": "types.d.ts",
   "module": "./dist/use-callbag.esm.js",
   "files": [
-    "dist"
+    "dist",
+    "types.d.ts"
   ],
   "scripts": {
     "test": "echo \"Warning: no test specified\" || jest --env=node",
