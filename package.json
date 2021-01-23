@@ -4,8 +4,10 @@
   "description": "👜 Use callbag as React hook.",
   "main": "./dist/use-callbag.cjs.js",
   "module": "./dist/use-callbag.esm.js",
+  "types": "./index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "*.d.ts"
   ],
   "scripts": {
     "test": "echo \"Warning: no test specified\" || jest --env=node",
@@ -41,6 +43,7 @@
     "rollup-plugin-babel": "^4.0.3"
   },
   "dependencies": {
+    "callbag": "^1.2.0",
     "callbag-subscribe": "^1.4.1"
   }
 }
